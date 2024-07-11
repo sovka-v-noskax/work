@@ -1,0 +1,6 @@
+def calculate_square(number):
+    return number * number
+
+planet_radius = 6371  # Earth's radius in kilometers
+planet_area = calculate_square(planet_radius)
+print("The square of the radius of the planet is:", planet_area)
